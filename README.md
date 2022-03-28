@@ -1,8 +1,14 @@
 Тут буде конспект заняття
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/yevheniiMoriziuk/today-I-learned.git
-git push -u origin main
+cd .. - перейти на директорію нижче
+cd /Desktop/today-I-learned - перейти до директорії
+
+ls - відобразити вміст
+ls -a - відобразити включно з прихованими файлами та диреторіями
+
+git init 'some text' - створити репозиторій на ноуті
+git add README.md - додати вже сторений (відредагований) файл до коміту, можка кілька, додавєм для того щоб запушити зміни
+git commit -m "first commit" - створення коміту
+git branch -M main - перехід до різних гілок
+git remote add origin https://github.com/yevheniiMoriziuk7/today-I-learned.git - знаходимо відповідний репозиторій на github щоб його оновлювати
+git push -u origin main - пушимо зміни до нашого репозиторію
