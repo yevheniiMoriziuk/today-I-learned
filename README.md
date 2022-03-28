@@ -15,6 +15,7 @@ git push -u origin main - пушимо зміни до нашого репози
 
 git status - дозволяє відобразити які файли в директорії змінені
 
+git branch SOMETEXT - створити бранчу
 git checkout -b SOMETEXT - створити нову гілку
 git checkout SOMETEXT - перейти на гілку
 
