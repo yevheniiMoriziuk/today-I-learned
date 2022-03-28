@@ -12,3 +12,12 @@ git commit -m "first commit" - створення коміту
 git branch -M main - перехід до різних гілок
 git remote add origin https://github.com/yevheniiMoriziuk7/today-I-learned.git - знаходимо відповідний репозиторій на github щоб його оновлювати
 git push -u origin main - пушимо зміни до нашого репозиторію
+
+git status - дозволяє відобразити які файли в директорії змінені
+
+git checkout -b SOMETEXT - створити нову гілку
+git checkout SOMETEXT - перейти на гілку
+
+git merge SOMETEXT - приєднвти кільку до існуючої
+
+git rebase - дозволяє перебудувати коміти з різних гілок в одну послідовність
